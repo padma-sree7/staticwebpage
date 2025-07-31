@@ -1,0 +1,80 @@
+body {
+  background-image: url("s1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  background-color: #f2c94c;
+  color: #d94f00;
+  font-size: 60px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.quote {
+  font-family: Arial Black;
+  font-size: 40px;
+  color: #666;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.crew-container {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 40px auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.crew-title {
+  font-size: 36px;
+  color: #d94f00;
+  margin-bottom: 20px;
+}
+
+.crew-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.crew-card {
+  width: 150px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.crew-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.crew-card p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
